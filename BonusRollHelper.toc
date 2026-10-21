@@ -1,0 +1,23 @@
+## Interface: 120105
+## Title: Bonus Roll Helper
+## Notes: Plan your Nebulous Voidcore bonus rolls: every current-season boss and dungeon loot pool per spec, a wishlist and avoid list, and the odds of each roll. Bonus-roll history is read from the Simulationcraft addon.
+## Version: 1.0.0
+## IconTexture: Interface\Icons\INV_Enchant_VoidSphere
+## Category: Dungeons & Raids
+## OptionalDeps: Simulationcraft
+## SavedVariables: BonusRollHelperDB
+## SavedVariablesPerCharacter: BonusRollHelperCharDB
+## AddonCompartmentFunc: BonusRollHelper_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: BonusRollHelper_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: BonusRollHelper_OnAddonCompartmentLeave
+
+Core\Init.lua
+Core\Season.lua
+Core\Pool.lua
+Core\History.lua
+Core\Odds.lua
+
+UI\Theme.lua
+UI\LootPanel.lua
+UI\MainFrame.lua
+UI\RollPrompt.lua
